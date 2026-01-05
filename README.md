@@ -2,6 +2,10 @@
 
 This project implements a **Self-Governing Reflection Pattern** for autonomous technical content creation. It demonstrates how to wrap probabilistic AI agents in deterministic Java guardrails.
 
+## 🚀 High Level Design 
+<img width="1186" height="646" alt="image" src="https://github.com/user-attachments/assets/9341a098-c442-4bdc-b0f4-f52518e4fa3f" />
+
+
 ## 🚀 The GJH Framework
 - **Guardrail (Java):** Deterministic input/output filtering.
 - **Judge (LLM):** Qualitative scoring and bias detection.
