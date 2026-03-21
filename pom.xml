@@ -9,9 +9,9 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>openai-agent</artifactId>
+    <artifactId>agentic-ai-trip-planner</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>openai-agent</name>
+    <name>agentic-ai-trip-planner</name>
     <description>OpenAI Agent Demo</description>
 
     <properties>
@@ -50,11 +50,24 @@
                 <version>0.35.0</version>
             </dependency>
 
+
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-ollama</artifactId>
+            <version>0.35.0</version>
+        </dependency>
+
             <dependency>
                 <groupId>dev.langchain4j</groupId>
                 <artifactId>langchain4j-open-ai</artifactId>
                 <version>0.35.0</version>
             </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.playwright</groupId>
+            <artifactId>playwright</artifactId>
+            <version>1.40.0</version>
+        </dependency>
 
             <dependency>
                 <groupId>org.projectlombok</groupId>
